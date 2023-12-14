@@ -1,0 +1,30 @@
+/* CSS styles.css */
+.firstDiv, .secondDiv, .thirdDiv {
+    height: 200px;
+    width: 200px;
+  }
+
+  body{
+   
+  }
+
+  .containerDiv{
+
+  }
+  .firstDiv {
+    background-color: red;
+    position: absolute;
+   
+  }
+  .secondDiv {
+    background-color: green;
+  /*  position: relative; fixed property*/ 
+    position: fixed;
+    left: 400px;
+   
+  }
+  .thirdDiv {
+    background-color: blue;
+    position: relative;
+    left: 200px;
+  }
